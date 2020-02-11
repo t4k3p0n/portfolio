@@ -85,6 +85,10 @@ background-color: #178a7a;
   background-color: #178a7a;
 }
 
+.programbox :hover {
+  transform: scale(1.5);
+	transition-duration: 0.3s;
+}
 
 @media (min-width: 900px) {
   header .container {
@@ -145,8 +149,9 @@ background-color: #178a7a;
   text-align: center;
   width: 32%;
   box-sizing: border-box;
-  
   margin: 0 auto;
+  display: block;
+	transition-duration: 0.3s;
   }
   
   .programbox img{
