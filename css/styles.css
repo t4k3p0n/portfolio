@@ -1,0 +1,246 @@
+body {
+  font-size: 16px;
+  font-family: Quicksand,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  background-color: #f0f0f0;
+  z-index: 0; margin: 0; padding: 0
+}
+
+header {
+  margin:0;
+  background-color: #29dfc6;
+  color: #fff;
+  height: 80px;
+}
+
+.header-list {
+  display:block;
+  height: 80px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding:20px 40px;
+}
+
+.menu {
+  text-align:center;
+  list-style: none;
+  overflow: hidden;
+  margin-top:0;
+  margin-bottom:0;
+  height: 80px;
+}
+
+.menu li {
+  font-size:20px;
+  margin-top:15px;
+  margin-bottom:15px;
+  width: 340px;
+  text-align: center;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+ul :hover{
+background-color: #178a7a;
+
+}
+ 
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.container {
+
+  font-family: Quicksand,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  text-align: center;
+  color: #35495e;
+}
+
+
+
+.container h1{
+ 
+  font-weight: 300;
+  font-size: 80px;
+  margin-top:300px;
+}
+
+.skil {
+  background-color: #178a7a;
+}
+
+.work {
+  background-color: #178a7a;
+}
+
+.about {
+  background-color: #178a7a;
+}
+
+
+@media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  header .info {
+    width: 60%;
+    align-self: center;
+  }
+
+  header .pic {
+    width: 40%;
+  }
+
+  .works .pic {
+    width: 50%;
+  }
+
+  .works .info {
+    width: calc(50% - 32px);
+  }
+
+
+  .program {
+    color: #35495e;
+    margin: auto;
+    padding: 64px;
+    background: #f2f2f3;
+    overflow: auto;
+  }
+  
+  
+  .program1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .program1 h2 {
+    font-size: 2.5rem;
+    margin: 0 0 4rem;
+    text-align: center;
+  }
+  
+  .program2 {
+  max-width: 1080px;
+  margin: 0 auto 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .programbox {
+  padding: 3rem 2.2rem;
+  text-align: center;
+  width: 32%;
+  box-sizing: border-box;
+  
+  margin: 0 auto;
+  }
+  
+  .programbox img{
+  width: 120px;
+  margin: 0 auto 1rem;
+  }
+  
+  
+  .programbox h3 {
+  font-size: 24px;
+  margin: 0 auto .5rem;
+  }
+  
+  
+
+}
+
+@media (min-width: 500px) {
+  header .container {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  header .info {
+    width: 60%;
+    align-self: center;
+  }
+
+  header .pic {
+    width: 40%;
+  }
+
+  .works .pic {
+    width: 50%;
+  }
+
+  .works .info {
+    width: calc(50% - 32px);
+  }
+
+
+  .program {
+    color: #35495e;
+    margin: auto;
+    padding: 64px;
+    background: #f2f2f3;
+    overflow: auto;
+  }
+  
+  
+  .program1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .program1 h2 {
+    font-size: 2.5rem;
+    margin: 0 0 4rem;
+    text-align: center;
+  }
+  
+  .program2 {
+  max-width: 1080px;
+  margin: 0 auto 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .programbox {
+  padding: 3rem 2.2rem;
+  text-align: center;
+  width: 32%;
+  box-sizing: border-box;
+  
+  margin: 0 auto;
+  }
+  
+  .programbox img{
+  width: 120px;
+  margin: 0 auto 1rem;
+  }
+  
+  
+  .programbox h3 {
+  font-size: 24px;
+  margin: 0 auto .5rem;
+  }
+  
+  
+
+}
+
+
+

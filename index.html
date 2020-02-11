@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>たけぽんのポートフォリオ</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-logo">Portfolio</div>
+    <div class="header-list">
+<ul class="menu">
+  <li class="Home"><a href="">HOME</a></li>
+  <li class="Skill"><a href="">SKILS</a></li>
+  <li class="Works"><a href="">WORKS</a></li>
+  <li class="About"><a href="">About</a></li>
+</ul>
+    </div>
+  </header>
+
+    <section>
+      <div class="container">
+        <h1 id="h1">takepon's Portfolio</h1>
+        <h2>ようこそ！</h2>
+        <br>
+        <br>
+      </div>
+    </section>
+    <hr>
+
+  <section class="program">
+    <div class="program1">
+      <h2 id="s1">学習中<br>学習予定の物等</h2>
+    </div>
+    <div class="program2">
+      <div class="programbox">
+        <img src="./img/html.png">
+        <h3>HTML</h3>
+        <p class="">ホームページを作る時に学習。</p>
+      </div>
+      <div class="programbox">
+        <img src="./img/css.png">
+        <h3>CSS</h3>
+        <p>ホームページを作る時に学習。</p>
+      </div>
+      <div class="programbox">
+        <img src="./img/javascript.png">
+        <h3>javaScript</h3>
+        <p>ホームページを作るときに学習</p>
+      </div>
+    </div>
+    <div class="program2">
+      <div class="programbox">
+        <img src="./img/sql.png">
+        <h3>SQL</h3>
+        <p class="">ポートフォリオ作る際に学習予定</p>
+      </div>
+      <div class="programbox">
+        <img src="./img/Git.png">
+        <h3>Github</h3>
+        <p>ホームページを作る時に学習。</p>
+      </div>
+      <div class="programbox">
+        <img src="./img/ruby.png">
+        <h3>Ruby</h3>
+        <p>ポートフォリオ作る際に学習予定</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <hr>
+  <section class="program">
+    <div class="program1">
+      <h2 id="w1">WORKS<br>成果物等</h2>
+      <h3>ポートフォリオサイト</h3>
+      <p>HTML,CSS,jQueryを使用<br>
+      これからレスポンシブ対応、JavaScript,jQuery等<br>
+      使って改善していく課題があります。
+      </p>
+      <h3>ToDoアプリ</h3>
+      <p>HTML,CSS,JavaScriptを使用<br>
+        CRUD操作を本来バックエンドを使用して作る物をフロントでそれっぽいのを作ってみました<br>
+        ただ、CRUDの内の更新機能(作業中、完了の書き換え)が出来なくてそこが課題です<br>
+        Github→<a href="https://github.com/t4k3p0n/todo">こちら</a>
+      </p>
+  
+      <h3>音声認識システム</h3>
+      <p>HTML,CSS,JavaScriptを使用<br>
+        Web Speech APIを使用してマイクから入力された音声をテキストに書き写すアプリです<br>
+        Github→<a href="https://github.com/t4k3p0n/voice">こちら</a>
+      </p>
+
+    </div>
+    
+  </section>
+  <hr>
+
+  <section class="program">
+    <div class="program1">
+      <h2 id="a1">About<br>自己紹介</h2>
+      <h3>名前：佐々木　健。　兵庫県在住の21歳。</h3>
+            <br>趣味：作曲、楽器、ドライブや国内旅行等。好きな食べ物はラーメン。
+            <br>2017~2019年の間、神戸電子専門学校　情報処理学科に通っていました。
+            <br>2019年4~7月にかけて、東京のIT企業にプログラマーとして就職していたが、自己都合により退職。
+            <br>そこから、再度就職するために、独学でWeb系の勉強等をし、就職活動を始め今に至ります。(2020/01/17)
+            <br></p>
+            <a href="https://twitter.com/takepon_it">Twitter</a>
+            <a href="https://github.com/t4k3p0n">github</a>
+      <div class="programbox">
+      </div>
+
+  </section>
+
+  </div>
+  
+  <script type="text/javascript">
+
+$('.About').click(function() {
+  var h1 = $('#a1').offset().top;
+  $('html, body').animate({scrollTop:h1});
+
+})
+
+$('.Home').click(function() {
+  var h1 = $('#h1').offset().top;
+  $('html, body').animate({scrollTop:h1});
+
+})
+
+$('.Skill').click(function() {
+  var h1 = $('#s1').offset().top;
+  $('html, body').animate({scrollTop:h1});
+
+})
+
+$('.Works').click(function() {
+  var h1 = $('#w1').offset().top;
+  $('html, body').animate({scrollTop:h1});
+
+})
+    
+
+    </script>
+
+</body>
+</html>
